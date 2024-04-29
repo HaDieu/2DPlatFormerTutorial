@@ -22,6 +22,8 @@ public class MovementController : MonoBehaviour
     public bool isOnPlatform;
     public Rigidbody2D platformRb;
 
+    public ParticleController particleController;
+
     private void Start()
     {
         UpdateRelateTranform();
@@ -57,6 +59,7 @@ public class MovementController : MonoBehaviour
 
     void Flip()
     {
+        particleController.PlayTounchParticle(wallCheckPoint.position);
         transform.Rotate(0, 180, 0);
         UpdateRelateTranform();
     }

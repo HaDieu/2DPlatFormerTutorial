@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 1671835073
+    locked: 0
+  - name: Obstacle
+    uniqueID: 128472697
+    locked: 0
+  - name: Particle
+    uniqueID: 233892615
+    locked: 0
+  - name: Wall
+    uniqueID: 4045339001
+    locked: 0
+  - name: Player
+    uniqueID: 1938428931
     locked: 0
